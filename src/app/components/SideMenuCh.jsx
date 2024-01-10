@@ -1,29 +1,32 @@
-import { NextPage } from 'next'
-import { Box, VStack, Text, Image } from '@chakra-ui/react'
+import { NextPage } from 'next';
+import { Box, VStack, Text, Image } from '@chakra-ui/react';
+import LogoAllBlocksVCh from '/LogoAllBlocksVCh';
 
 const SideMenuCh: NextPage = () => {
   return (
     <VStack spacing={4} align="center">
       <Box>
         <Text>Contacto</Text>
-        <Image src="/icContacto.svg" alt="Contacto" boxSize="50px" />
+        <Image src="/menuicons/icocontacto.svg" alt="Contacto" boxSize="30px" />
       </Box>
       <Box>
         <Text>Noticias</Text>
-        <Image src="/icNoticias.svg" alt="Noticias" boxSize="50px" />
+        <Image src="/menuicons/iconoticias.svg" alt="Noticias" boxSize="30px" />
       </Box>
       <Box>
         <Text>Estadísticas</Text>
-        <Image src="/Vector 19.svg" alt="Estadísticas" boxSize="50px" />
+        <Image src="/menuicons/icostats.svg" alt="Estadísticas" boxSize="30px" />
       </Box>
-      <Image src="/Intercambios.png" alt="Intercambios" boxSize="100px" />
+      <Box>
+        <Text>Estadísticas</Text>
+        <Image src="/menuicons/icointercambios.svg" alt="Intercambios" boxSize="30px" />
+      </Box>
       <Box>
         <Text>Criptomonedas</Text>
-        <Image src="/icCriptomonedas.svg" alt="Criptomonedas" boxSize="50px" />
+        <Image src="/menuicons/icocriptomonedas.svg" alt="Criptomonedas" boxSize="30px" />
       </Box>
       <Box>
-        <Image src="/letras.svg" alt="Logo letras" boxSize="100px" />
-        <Image src="/imagotipo.svg" alt="Logo imagotipo" boxSize="100px" />
+        <LogoAllBlocksVCh />
       </Box>
     </VStack>
   )
