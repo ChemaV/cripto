@@ -1,20 +1,15 @@
 import { NextPage } from 'next'
-import { Image, VStack } from '@chakra-ui/react'
+import { Image } from '@chakra-ui/react'
 
 const LogoAllBlocksVCh: NextPage = () => {
   return (
-    <VStack spacing={4}>
       <Image
-        src="../assets/images/logo/letras.svg"
-        alt="Logo letras"
-        boxSize="500px"
+        src="../logoallblocks.svg"
+        alt="Logo All Blocks"
+        boxSize="141px"
+        htmlHeight="141"
+        htmlWidth="62"
       />
-      <Image
-        src="../assets/images/logo/imagotipo.svg"
-        alt="Logo imagotipo"
-        boxSize="500px"
-      />
-    </VStack>
   )
 }
 
