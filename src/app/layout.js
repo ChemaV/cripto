@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Grid, GridItem } from '@chakra-ui/react'
-import Footer from "@/components/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,7 +34,7 @@ export default function RootLayout({ children }) {
             Main
           </GridItem>
           <GridItem pl="2" bg="blue.300" area={"footer"}>
-            <Footer>Footer</Footer>
+            Footer
           </GridItem>
         </Grid>
       </body>
