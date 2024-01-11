@@ -10,8 +10,8 @@ const Links = () => {
         path: '/criptomonedas',
     },
     {
-        title: 'Intercambios',
-        path: '/intercambios',
+        title: 'Exchange',
+        path: '/exchange',
     },
     {
         title: 'Estadísticas',
