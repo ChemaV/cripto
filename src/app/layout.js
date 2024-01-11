@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Grid, GridItem } from '@chakra-ui/react'
-import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
