@@ -1,7 +1,7 @@
-const Estadisticas = () => {
+const EstadisticasPage = () => {
     return (
         <div>Estadísticas</div>
     )
 }
 
-export default Estadisticas
+export default EstadisticasPage

@@ -1,7 +1,7 @@
-const Noticias = () => {
+const NoticiasPage = () => {
     return (
         <div>Noticias</div>
     )
 }
 
-export default Noticias
+export default NoticiasPage

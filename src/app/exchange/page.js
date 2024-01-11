@@ -1,7 +1,7 @@
-const Exchange = () => {
+const ExchangePage = () => {
     return (
         <div>Exchange</div>
     )
 }
 
-export default Exchange
+export default ExchangePage
