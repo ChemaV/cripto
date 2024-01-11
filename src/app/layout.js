@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
             Header
           </GridItem>
           <GridItem pl="2" bg="pink.300" area={"nav"}>
-            <Navbar>Navbar</Navbar>
+            Navbar
           </GridItem>
           <GridItem pl="2" bg="green.300" area={"main"}>
             Main
