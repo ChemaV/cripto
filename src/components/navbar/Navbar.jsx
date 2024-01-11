@@ -1,4 +1,3 @@
-import LogoAllBlocksVCh from "@/components/LogoAllBlocksVCh";
 import Links from "./links/Links";
 
 const Navbar = () => {
@@ -6,7 +5,7 @@ const Navbar = () => {
     <div>
       <div>
         <div>
-          <LogoAllBlocksVCh />
+          LogoAllBlocksVCh
         </div>
       </div>
       <div>
