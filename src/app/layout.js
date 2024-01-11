@@ -1,6 +1,7 @@
-import { Inter } from "next/font/google";
+// layout.js con Chakra UI
+import React from "react";
 import "./globals.css";
-import { Grid, GridItem } from '@chakra-ui/react'
+import { Grid, GridItem } from "@chakra-ui/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,26 +15,29 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <body className={inter.className}>
         <Grid
-          templateAreas={`"header header"
-                  "nav main"
-                  "nav footer"`}
-          gridTemplateRows={"50px 1fr 30px"}
-          gridTemplateColumns={"150px 1fr"}
-          h="200px"
-          gap="1"
-          color="blackAlpha.700"
-          fontWeight="bold"
+          templateColumns="repeat(4, 1fr)"
+          templateRows="repeat(6, 1fr)"
+          gap={6}
+          templateAreas={`
+        "navbar header header header"
+        "navbar main main main"
+        "navbar main main main"
+        "navbar main main main"
+        "navbar main main main"
+        "navbar footer footer footer"
+      `}
         >
-          <GridItem pl="2" bg="orange.300" area={"header"}>
-            Header
-          </GridItem>
-          <GridItem pl="2" bg="pink.300" area={"nav"}>
+          <GridItem area="navbar" justifySelf="center">
             Navbar
           </GridItem>
-          <GridItem pl="2" bg="green.300" area={"main"}>
+          <GridItem area="header" alignSelf="center">
+            Header
+          </GridItem>
+          <GridItem area="main">
+            {/* Aquí puedes agregar más contenido al Main si es necesario */}
             Main
           </GridItem>
-          <GridItem pl="2" bg="blue.300" area={"footer"}>
+          <GridItem area="footer" alignSelf="center">
             Footer
           </GridItem>
         </Grid>
