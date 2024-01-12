@@ -29,10 +29,10 @@ export default function RootLayout({ children }) {
         "navbar footer footer footer"
       `}
         >
-          <GridItem area="navbar" justifySelf="center" bg="purple.600">
+          <GridItem area="navbar" w="100px" justifySelf="center" bg="purple.600">
             <Navbar />
           </GridItem>
-          <GridItem area="header" alignSelf="center" bg="cyan.300">
+          <GridItem area="header" alignSelf="center" h="255px">
             <HeaderCh />
             <HeaderTw />
           </GridItem>
