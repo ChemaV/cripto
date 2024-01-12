@@ -5,6 +5,7 @@ import CriptoCardCh from "./components/criptocard/CriptoCardCh";
 import Navbar from "./components/navbar/Navbar";
 import HeaderCh from "./components/header/HeaderCh";
 import HeaderTw from "./components/header/HeaderTw";
+import Footer from "./components/footer/Footer";
 
 export const metadata = {
   title: "All Blocks Criptomonedas",
@@ -40,6 +41,7 @@ export default function RootLayout({ children }) {
             <CriptoCardCh />
           </GridItem>
           <GridItem area="footer" alignSelf="center">
+            <Footer/ >
           </GridItem>
         </Grid>
       </body>
