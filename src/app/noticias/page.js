@@ -1,7 +1,7 @@
-const Noticias = () => {
+import NoticiaCard from '../components/noticiacard/NoticiaCard';
+
+export default function NoticiasPage() {
     return (
-        <div>Noticias</div>
+        <NoticiaCard />
     )
 }
-
-export default Noticias

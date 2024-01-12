@@ -1,7 +1,5 @@
-const Criptomonedas = () => {
+export default function CriptomonedasPage() {
     return (
         <div>Criptomonedas</div>
     )
 }
-
-export default Criptomonedas

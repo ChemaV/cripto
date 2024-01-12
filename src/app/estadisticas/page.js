@@ -1,7 +1,5 @@
-const Estadisticas = () => {
+export default function EstadisticasPage() {
     return (
         <div>Estadísticas</div>
     )
 }
-
-export default Estadisticas
