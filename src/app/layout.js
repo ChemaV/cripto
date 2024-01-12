@@ -1,8 +1,10 @@
-import { Inter } from "next/font/google";
+// layout.js con Chakra UI
 import "./globals.css";
-import { Grid, GridItem } from '@chakra-ui/react'
-
-const inter = Inter({ subsets: ["latin"] });
+import { Grid, GridItem } from "@chakra-ui/react";
+import CriptoCardCh from "./components/criptocard/CriptoCardCh";
+import Navbar from "./components/navbar/Navbar";
+import HeaderCh from "./components/header/HeaderCh";
+import HeaderTw from "./components/header/HeaderTw";
 
 export const metadata = {
   title: "All Blocks Criptomonedas",
@@ -12,29 +14,32 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={inter.className}>
+      <body>
         <Grid
-          templateAreas={`"header header"
-                  "nav main"
-                  "nav footer"`}
-          gridTemplateRows={"50px 1fr 30px"}
-          gridTemplateColumns={"150px 1fr"}
-          h="200px"
-          gap="1"
-          color="blackAlpha.700"
-          fontWeight="bold"
+          templateColumns="repeat(4, 1fr)"
+          templateRows="repeat(6, 1fr)"
+          gap={6}
+          templateAreas={`
+        "navbar header header header"
+        "navbar main main main"
+        "navbar main main main"
+        "navbar main main main"
+        "navbar main main main"
+        "navbar footer footer footer"
+      `}
         >
-          <GridItem pl="2" bg="orange.300" area={"header"}>
-            Header
+          <GridItem area="navbar" justifySelf="center" bg="purple.600">
+            <Navbar />
           </GridItem>
-          <GridItem pl="2" bg="pink.300" area={"nav"}>
-            Navbar
+          <GridItem area="header" alignSelf="center" bg="cyan.300">
+            <HeaderCh />
+            <HeaderTw />
           </GridItem>
-          <GridItem pl="2" bg="green.300" area={"main"}>
-            Main
+          <GridItem area="main" bg="white">
+            {children}
+            <CriptoCardCh />
           </GridItem>
-          <GridItem pl="2" bg="blue.300" area={"footer"}>
-            Footer
+          <GridItem area="footer" alignSelf="center">
           </GridItem>
         </Grid>
       </body>
