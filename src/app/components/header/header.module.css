@@ -1,0 +1,53 @@
+/* header.module.css */
+.headerContainer {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 36px;
+    color: #5a5a5a;
+    font-family: 'Chakra Petch';
+  }
+  
+  .titleSubtitleContainer {
+    position: absolute;
+    top: 45px;
+    left: 58px;
+    width: 1225px;
+    height: 210px;
+  }
+  
+  .bgTitleSubtitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 14px;
+    background-color: #f5f5f7;
+    width: 1225px;
+    height: 210px;
+  }
+  
+  .pageSubtitle {
+    position: absolute;
+    top: 92px;
+    left: 64px;
+    line-height: 48px;
+    font-weight: 500;
+    display: inline-block;
+    width: 1121px;
+    height: 84px;
+  }
+  
+  .pageTitle {
+    position: absolute;
+    top: 19.4px;
+    left: 64px;
+    font-size: 48px;
+    font-weight: 600;
+    color: #5c14a3;
+    display: inline-block;
+    width: 823px;
+    height: 65.1px;
+  }
+  

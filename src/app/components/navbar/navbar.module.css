@@ -1,0 +1,127 @@
+.menushadow {
+    position: absolute;
+    height: 97.65%;
+    width: 72.27%;
+    top: 2.35%;
+    right: 0%;
+    bottom: 0%;
+    left: 27.73%;
+    border-radius: 24px;
+    background-color: #0c0b0b;
+    filter: blur(60px);
+    opacity: 0.7;
+}
+.menubar {
+    position: absolute;
+    height: 100vh;
+    width: 83.19%;
+    top: 0%;
+    right: 16.81%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #5c14a3;
+}
+.contactoIcon {
+    position: absolute;
+    height: 11.12%;
+    width: 25.21%;
+    top: 84.9%;
+    right: 46.22%;
+    bottom: 3.98%;
+    left: 28.57%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.noticiasIcon {
+    position: absolute;
+    height: 10%;
+    width: 25.21%;
+    top: 71.53%;
+    right: 46.22%;
+    bottom: 18.47%;
+    left: 28.57%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.estadisticasIcon {
+    position: absolute;
+    height: 13.47%;
+    width: 25.21%;
+    top: 54.69%;
+    right: 46.22%;
+    bottom: 31.84%;
+    left: 28.57%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.intercambiosIcon {
+    position: absolute;
+    height: 13.76%;
+    width: 25.21%;
+    top: 37.56%;
+    right: 46.22%;
+    bottom: 48.67%;
+    left: 28.57%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.criptomonedasIcon {
+    position: absolute;
+    height: 15.41%;
+    width: 25.21%;
+    top: 18.78%;
+    right: 46.22%;
+    bottom: 65.82%;
+    left: 28.57%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.letrasIcon {
+    position: absolute;
+    height: 51.27%;
+    width: 63.26%;
+    top: 38.51%;
+    right: 18.38%;
+    bottom: 10.22%;
+    left: 18.36%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.imagotipoIcon {
+    position: absolute;
+    height: 28.21%;
+    width: 52.64%;
+    top: 7.69%;
+    right: 29.01%;
+    bottom: 64.1%;
+    left: 18.36%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.logoallblocksvertical {
+    position: absolute;
+    height: 16.02%;
+    width: 63.87%;
+    top: 1.94%;
+    right: 26.05%;
+    bottom: 82.04%;
+    left: 10.08%;
+    overflow: hidden;
+}
+.sidemenu {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
