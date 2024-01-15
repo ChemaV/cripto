@@ -66,19 +66,22 @@ export const razones = [
     },
 ];
 
+export const criptopagesections = [
+    {
+    name: pagecripto,
+    headingH1: 'Criptomonedas',
+    headingH2: "Explora Todas las Criptomonedas en un Solo Lugar",
+    description: "En colaboración con la API Coinranking, te presentamos información detallada sobre todas las monedas, desde las icónicas Bitcoin y Ethereum hasta los tokens especializados como Basic Attention Token. En All Blocks, reconocemos que cada moneda es única, contribuyendo de manera significativa a la diversidad y amplitud del ecosistema blockchain."
+    },
+];
+
 export const pagetitles = [
     {
         name: homepage,
         headingH1: "¡Bienvenido a All Blocks!",
         headingH2: "Descubre el Universo Blockchain en All Blocks",
-        intro: ", tu ventana al fascinante mundo de las criptomonedas y las plataformas blockchain! En un universo en constante evolución, estamos aquí para ser tu guía definitiva, brindándote información precisa y actualizada sobre todos los mercados y tipos de plataformas blockchain.",
+        intro: "Tu ventana al fascinante mundo de las criptomonedas y las plataformas blockchain! En un universo en constante evolución, estamos aquí para ser tu guía definitiva, brindándote información precisa y actualizada sobre todos los mercados y tipos de plataformas blockchain.",
         description: "En All Blocks, nos sumergimos en todos los rincones del cosmos blockchain, ofreciéndote una perspectiva completa de criptomonedas, exchanges, mercados y el emocionante mundo de los NFT. A diferencia de otras plataformas, nuestra misión es abarcar todos los aspectos de esta revolución financiera y tecnológica."
-    },
-    {
-        name: pagecripto,
-        headingH1: 'Criptomonedas',
-        headingH2: "Explora Todas las Criptomonedas en un Solo Lugar",
-        description: "En colaboración con la API Coinranking, te presentamos información detallada sobre todas las monedas, desde las icónicas Bitcoin y Ethereum hasta los tokens especializados como Basic Attention Token. En All Blocks, reconocemos que cada moneda es única, contribuyendo de manera significativa a la diversidad y amplitud del ecosistema blockchain."
     },
     {
         name: pageexchange,
