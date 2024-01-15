@@ -3,6 +3,6 @@ const ExchangePage = () => {
     )
   }
   
-  export default ExchangePage
+export default ExchangePage
   
 
