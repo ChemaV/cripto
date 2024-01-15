@@ -1,4 +1,4 @@
-import Apirapid from "./components/Apirapid.jsx";
+import Apirapid from "../components/Apirapid.jsx";
 
 const CriptomonedasPage = () => {
   return (
