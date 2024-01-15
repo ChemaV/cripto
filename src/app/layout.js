@@ -1,7 +1,7 @@
 // layout.js con Chakra UI
 import "./globals.css";
 import { Grid, GridItem } from "@chakra-ui/react";
-import Navbar from "./components/navbar/Navbar";
+import NavbarLeft from "./components/navbar/NavbarLeft";
 import HeaderCh from "./components/header/HeaderCh";
 import Footer from "./components/footer/Footer";
 
@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
       `}
         >
           <GridItem area="navbar" w="100px" justifySelf="center" bg="purple.600">
-            <Navbar />
+            <NavbarLeft />
           </GridItem>
           <GridItem area="header" alignSelf="center" h="255px">
             <HeaderCh />
