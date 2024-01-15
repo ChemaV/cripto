@@ -7,6 +7,7 @@ import HeaderCh from "./components/header/HeaderCh";
 import HeaderTw from "./components/header/HeaderTw";
 import Footer from "./components/footer/Footer";
 
+
 export const metadata = {
   title: "All Blocks Criptomonedas",
   description: "Proyecto Full Stack con Nextjs y React",
