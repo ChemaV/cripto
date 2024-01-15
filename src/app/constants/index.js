@@ -1,7 +1,3 @@
-import { block, blockchain, cryptowallet, decentralized, distributed, exchange, ledger, link, network, transaction } from "../assets/blockchainicons";
-import {  } from "../assets/images";
-import { facebook, instagram, twitter } from "../assets/socialmediaicons";
-
 export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#criptomonedas", label: "Criptomonedas" },
@@ -9,59 +5,6 @@ export const navLinks = [
     { href: "#estadisticas", label: "Estadísticas" },
     { href: "#noticias", label: "Noticias" },
     { href: "#contacto", label: "Contacto" },
-];
-
-export const blockchainicons = [
-    {
-        icon: block,
-        name: "block",
-        alt: "block",
-    },
-    {
-        icon: blockchain,
-        name: "blockchain",
-        alt: "blockchain",
-    },
-    {
-        icon: cryptowallet,
-        name: "cryptowallet",
-        alt: "cryptowallet",
-    },
-    {
-        icon: decentralized,
-        name: "decentralized",
-        alt: "decentralized",
-    },
-    {
-        icon: distributed,
-        name: "distributed",
-        alt: "distributed",
-    },
-    {
-        icon: exchange,
-        name: "exchange",
-        alt: "exchange",
-    },
-    {
-        icon: ledger,
-        name: "ledger",
-        alt: "ledger",
-    },
-    {
-        icon: link,
-        name: "link",
-        alt: "link",
-    },
-    {
-        icon: network,
-        name: "network",
-        alt: "network",
-    },
-    {
-        icon: transaction,
-        name: "transaction",
-        alt: "transaction",
-    },
 ];
 
 export const topcriptos = [
@@ -191,10 +134,4 @@ export const footerLinks = [
             { name: "+34000000", link: "tel:+34000000" },
         ],
     },
-];
-
-export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
 ];
