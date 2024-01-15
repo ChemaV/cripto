@@ -1,5 +1,8 @@
-export default function CriptomonedasPage() {
+const CriptomonedasPage = () => {
     return (
-        <div>Criptomonedas</div>
+        <section className="intro">Criptomonedas</section>
     )
-}
+  }
+  
+  export default CriptomonedasPage
+  

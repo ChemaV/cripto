@@ -1,5 +1,9 @@
-export default function ContactoPage() {
-    return (
-        <div>Contacto</div>
-    )
+const ContactoPage = () => {
+  return (
+    <div>
+      
+    </div>
+  )
 }
+
+export default ContactoPage

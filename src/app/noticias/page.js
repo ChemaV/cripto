@@ -1,7 +1,11 @@
 import NoticiaCard from '../components/noticiacard/NoticiaCard';
 
-export default function NoticiasPage() {
+const NoticiasPage = () => {
     return (
         <NoticiaCard />
     )
-}
+  }
+  
+  export default NoticiasPage
+  
+
