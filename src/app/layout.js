@@ -1,7 +1,6 @@
 // layout.js con Chakra UI
 import "./globals.css";
 import { Grid, GridItem } from "@chakra-ui/react";
-import CriptoCardCh from "./components/criptocard/CriptoCardCh";
 import Navbar from "./components/navbar/Navbar";
 import HeaderCh from "./components/header/HeaderCh";
 import Footer from "./components/footer/Footer";
@@ -37,7 +36,6 @@ export default function RootLayout({ children }) {
           </GridItem>
           <GridItem area="main" bg="white">
             {children}
-            <CriptoCardCh />
           </GridItem>
           <GridItem area="footer" alignSelf="center">
             <Footer/ >
