@@ -1,5 +1,4 @@
 import { Heading } from "@chakra-ui/react";
-import { criptopagesections } from "../../constants";
 
 const CriptomonedasH1 = () => {
 return (
