@@ -4,7 +4,6 @@ import { Grid, GridItem } from "@chakra-ui/react";
 import CriptoCardCh from "./components/criptocard/CriptoCardCh";
 import Navbar from "./components/navbar/Navbar";
 import HeaderCh from "./components/header/HeaderCh";
-import HeaderTw from "./components/header/HeaderTw";
 import Footer from "./components/footer/Footer";
 
 export const metadata = {
@@ -34,7 +33,6 @@ export default function RootLayout({ children }) {
           </GridItem>
           <GridItem area="header" alignSelf="center" h="255px">
             <HeaderCh />
-            <HeaderTw />
           </GridItem>
           <GridItem area="main" bg="white">
             {children}
