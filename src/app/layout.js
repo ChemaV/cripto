@@ -1,7 +1,7 @@
 // layout.js con Chakra UI
 import "./globals.css";
 import { Grid, GridItem } from "@chakra-ui/react";
-import Navbar from "./components/navbar/Navbar";
+import NavbarLeft from "./components/navbar/NavbarLeft";
 import HeaderCh from "./components/header/HeaderCh";
 import Footer from "./components/footer/Footer";
 import Apirapid from "./components/Apirapid.jsx";
@@ -17,17 +17,32 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body>
-        <Navbar />
-        <HeaderCh />
-        <div className="grid grid-cols-5 grid-rows-5 gap-4">
-    <div className="col-span-5 row-span-2">
-      <Apirapid />
-    </div>
-    <div className="col-span-3 row-span-3 row-start-3">Hola soy un 2</div>
-    <div className="col-span-2 row-span-3 col-start-4 row-start-3">Hola soy un 3</div>
-    <Footer />
-</div>
-    
+        <Grid
+          templateColumns="repeat(4, 1fr)"
+          templateRows="repeat(6, 1fr)"
+          gap={6}
+          templateAreas={`
+        "navbar header header header"
+        "navbar main main main"
+        "navbar main main main"
+        "navbar main main main"
+        "navbar main main main"
+        "navbar footer footer footer"
+      `}
+        >
+          <GridItem area="navbar" w="100px" justifySelf="center" bg="purple.600">
+            <Navbar />
+          </GridItem>
+          <GridItem area="header" alignSelf="center" h="255px">
+            <HeaderCh />
+          </GridItem>
+          <GridItem area="main" bg="white">
+            {children}
+          </GridItem>
+          <GridItem area="footer" alignSelf="center">
+            <Footer/ >
+          </GridItem>
+        </Grid>
       </body>
     </html>
   );
