@@ -7,48 +7,10 @@ export const navLinks = [
     { href: "#contacto", label: "Contacto" },
 ];
 
-export const topcriptos = [
-    {
-        thumbnail: thumbnailCripto1,
-        topCripto: topCripto1,
-    },
-    {
-        thumbnail: thumbnailCripto2,
-        topCripto: topCripto2,
-    },
-    {
-        thumbnail: thumbnailCripto3,
-        topCripto: topCripto3,
-    },
-];
-
 export const statistics = [
     { value: '20k+', label: 'Criptomonedas' },
     { value: '170+', label: 'Exchanges' },
     { value: '30k+', label: 'Markets' },
-];
-
-export const popularcoins = [
-    {
-        imgURL: popularcoin1,
-        name: "Ethereum",
-        price: "$200.20",
-    },
-    {
-        imgURL: popularcoin2,
-        name: "Bitcoin",
-        price: "$210.20",
-    },
-    {
-        imgURL: popularcoin3,
-        name: "Nombre Popular Coin 3",
-        price: "$220.20",
-    },
-    {
-        imgURL: popularcoin4,
-        name: "Nombre Popular Coin 4",
-        price: "$230.20",
-    },
 ];
 
 export const razones = [
@@ -107,34 +69,4 @@ export const pagetitles = [
         headingH2: "Sumérgete en el Universo NFT",
         description: "Los NFT (Tokens No Fungibles) han revolucionado la manera en que entendemos y compartimos el arte digital, la música y mucho más. All Blocks te sumerge en este fascinante mundo, proporcionándote información clave sobre los NFT más destacados, las plataformas líderes y las últimas tendencias en este emocionante espacio."
     }
-];
-
-
-export const footerLinks = [
-    {
-        title: "Servicios",
-        links: [
-            { name: "Criptomonedas", link: "#criptomonedas" },
-            { name: "Exchange", link: "#exchange" },
-            { name: "Estadísticas", link: "#estadisticas" },
-            { name: "Noticias", link: "#noticias" },
-        ],
-    },
-    {
-        title: "Ayuda",
-        links: [
-            { name: "Acerca de", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "Cómo funciona", link: "/" },
-            { name: "Política de privacidad", link: "/" },
-            { name: "Política de pagos", link: "/" },
-        ],
-    },
-    {
-        title: "Contacta con All Blocks",
-        links: [
-            { name: "customer@allblocks.com", link: "mailto:customer@allblocks.com" },
-            { name: "+34000000", link: "tel:+34000000" },
-        ],
-    },
 ];
