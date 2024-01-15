@@ -27,7 +27,7 @@ module.exports = {
         secondary: "#ECEEFF",
         "purple-light": "#C78FFF",
         "lemon": "#E8FFB6",
-        "gray-title": "#F5F5F7",
+        "gray-title": "#5A5A5A",
         "gray-txt": "#04050C",
         "gray-light": "#F5F5F7",
       }
