@@ -1,10 +1,10 @@
-'use client'
-import React, { useState, useEffect } from 'react';
-import { fetchData } from '../api.js';
-import CriptoCardJor from '../components/CriptoCardJor.jsx';
+"use client";
+import React, { useState, useEffect } from "react";
+import { fetchData } from "../api.js";
+import CriptoCardJor from "../components/CriptoCardJor.jsx";
+import { Flex } from '@chakra-ui/react';
 
-
-const TuComponente = () => {
+const Apirapid = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
 
@@ -32,13 +32,13 @@ const TuComponente = () => {
   return (
     <div>
       <h1>Lista de Monedas</h1>
-      {data.map((coin) => (
-        <CriptoCardJor key={coin.symbol} coin={coin} />
-        
-      ))}
+      <Flex flexDirection="row" minWidth="80%" alignItems="center" gap="3">
+        {data.map((coin) => (
+          <CriptoCardJor key={coin.symbol} coin={coin} />
+        ))}
+      </Flex>
     </div>
   );
 };
 
-export default TuComponente;
-
+export default Apirapid;
