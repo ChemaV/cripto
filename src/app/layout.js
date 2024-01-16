@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
           <GridItem gridArea="header">
             <HeaderCh />
           </GridItem>
-          <GridItem gridArea="main" bg="white" overflow="auto">
+          <GridItem gridArea="main" bg="white" className="max-h-screen">
             {children}
           </GridItem>
           <GridItem area="footer" alignSelf="end" position="sticky" bottom="0">
