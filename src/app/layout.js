@@ -15,29 +15,26 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <body>
         <Grid
-          templateColumns="repeat(4, 1fr)"
-          templateRows="repeat(6, 1fr)"
+          templateColumns="100px 1fr 1fr 1fr"
+          templateRows="auto 1fr auto"
           gap={6}
           templateAreas={`
-        "navbar header header header"
-        "navbar main main main"
-        "navbar main main main"
-        "navbar main main main"
-        "navbar main main main"
-        "navbar footer footer footer"
-      `}
+            "navbar header header header"
+            "navbar main main main"
+            "navbar footer footer footer"
+          `}
         >
-          <GridItem area="navbar" alignSelf="center" w="100px">
+          <GridItem gridArea="navbar">
             <NavbarLeft />
           </GridItem>
-          <GridItem area="header" alignSelf="center" h="255px">
+          <GridItem gridArea="header">
             <HeaderCh />
           </GridItem>
-          <GridItem area="main" bg="white">
+          <GridItem gridArea="main" bg="white" overflow="auto">
             {children}
           </GridItem>
-          <GridItem area="footer" alignSelf="center">
-            <Footer/ >
+          <GridItem area="footer" alignSelf="end" position="sticky" bottom="0">
+            <Footer />
           </GridItem>
         </Grid>
       </body>
