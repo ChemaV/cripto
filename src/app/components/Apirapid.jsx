@@ -26,17 +26,16 @@ const Apirapid = () => {
   }
 
   if (!data) {
-    return <div>Loading...</div>;
+    return <div>Cargando...</div>;
   }
 
   return (
-    <div>
-      <h1>Lista de Monedas</h1>
-      <Flex flexDirection="row" minWidth="80%" alignItems="center" gap="3">
+    <div className="h-fit grid grid-cols-3 gap-4">
+        
         {data.map((coin) => (
           <CriptoCardJor key={coin.symbol} coin={coin} />
         ))}
-      </Flex>
+
     </div>
   );
 };
