@@ -24,26 +24,26 @@ export default function CriptoCard({ coin }) {
     : randomDailyChange();
 
   return (
-    <div className="bg-[#a084ca] p-4 rounded-lg w-[300px] lg:w-[330px] shadow-md">
+    <div className="bg-purple-light p-4 rounded-lg w-[300px] lg:w-[330px] shadow-md">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-lg font-semibold text-white">{coin.name}</h2>
+        <h2 className="text-lg font-semibold text-primary">{coin.name}</h2>
         <img src={coin.iconUrl} alt={coin.name} className="rounded-full w-8 h-8" />
       </div>
-      <div className="bg-[#c6c6c6] p-4 rounded-lg">
+      <div className="bg-light-gray p-4 rounded-lg">
         <div className="flex justify-between items-baseline mb-2">
-          <span className="text-sm font-medium text-gray-700">Precio:</span>
-          <span className="text-2xl font-bold text-gray-800">
+          <span className="text-sm font-medium text-gray-txt">Precio:</span>
+          <span className="text-2xl font-bold text-gray-txt">
             {formatNumber(parseFloat(coin.price))}
           </span>
         </div>
         <div className="flex justify-between items-baseline mb-2">
-          <span className="text-sm font-medium text-gray-700">Market Cap:</span>
+          <span className="text-sm font-medium text-gray-txt">Market Cap:</span>
           <span className="text-2xl font-bold text-gray-800">
             {formatNumber(parseFloat(coin.marketCap))}
           </span>
         </div>
         <div className="flex justify-between items-baseline">
-          <span className="text-sm font-medium text-gray-700">
+          <span className="text-sm font-medium text-gray-txt">
             Cambio Diario:
           </span>
           <span
