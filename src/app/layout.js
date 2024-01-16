@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
       `}
         >
           <GridItem area="navbar" w="100px" justifySelf="center" bg="purple.600">
-            <Navbar />
+            <NavbarLeft />
           </GridItem>
           <GridItem area="header" alignSelf="center" h="255px">
             <HeaderCh />
