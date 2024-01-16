@@ -24,7 +24,7 @@ export default function CriptoCard({ coin }) {
     : randomDailyChange();
 
   return (
-    <div className="bg-[#a084ca] p-4 rounded-lg w-[300px] shadow-md">
+    <div className="bg-[#a084ca] p-4 rounded-lg w-[300px] lg:w-[330px] shadow-md">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-semibold text-white">{coin.name}</h2>
         <img src={coin.iconUrl} alt={coin.name} className="rounded-full w-8 h-8" />
