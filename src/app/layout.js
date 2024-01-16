@@ -2,7 +2,7 @@
 import "./globals.css";
 import { Grid, GridItem } from "@chakra-ui/react";
 import NavbarLeft from "./components/navbar/NavbarLeft";
-import HeaderCh from "./components/header/HeaderCh";
+import HeaderTw from "./components/header/HeaderTw";
 import Footer from "./components/footer/Footer";
 
 export const metadata = {
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
             <NavbarLeft />
           </GridItem>
           <GridItem gridArea="header">
-            <HeaderCh />
+            <HeaderTw />
           </GridItem>
           <GridItem gridArea="main" bg="white" className="max-h-screen">
             {children}
