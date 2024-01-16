@@ -38,7 +38,6 @@ export default function RootLayout({ children }) {
           </GridItem>
           <GridItem area="main" bg="white">
             {children}
-            <Apirapid />
           </GridItem>
           <GridItem area="footer" alignSelf="center">
             <Footer/ >
