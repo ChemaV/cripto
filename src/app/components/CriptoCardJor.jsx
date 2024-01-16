@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function CriptoCard({ coin }) {
   const formatNumber = (value) => {
     if (value >= 1e9) return (value / 1e9).toFixed(2) + "B";
@@ -24,26 +22,26 @@ export default function CriptoCard({ coin }) {
     : randomDailyChange();
 
   return (
-    <div className="bg-purple-light p-4 rounded-lg w-[300px] lg:w-[330px] shadow-md">
-      <div className="flex justify-between items-center mb-4">
-        <h2 className="text-lg font-semibold text-primary">{coin.name}</h2>
-        <img src={coin.iconUrl} alt={coin.name} className="rounded-full w-8 h-8" />
+    <div className="bg-gray-light rounded-lg w-[300px] lg:w-[330px] shadow-md">
+      <div className="flex justify-between items-center mt-4 bg-purple-light w-full p-4">
+        <h2 className="text-2xl font-bold text-primary">{coin.name}</h2>
+        <img src={coin.iconUrl} alt={coin.name} className="rounded-full w-8 h-8 bg-gray-100" />
       </div>
       <div className="bg-light-gray p-4 rounded-lg">
         <div className="flex justify-between items-baseline mb-2">
-          <span className="text-sm font-medium text-gray-txt">Precio:</span>
+          <span className="text-md font-semibold text-gray-txt">Precio:</span>
           <span className="text-2xl font-bold text-gray-txt">
             {formatNumber(parseFloat(coin.price))}
           </span>
         </div>
         <div className="flex justify-between items-baseline mb-2">
-          <span className="text-sm font-medium text-gray-txt">Market Cap:</span>
-          <span className="text-2xl font-bold text-gray-800">
+          <span className="text-md font-semibold text-gray-txt">Market Cap:</span>
+          <span className="text-2xl font-bold text-gray-txt">
             {formatNumber(parseFloat(coin.marketCap))}
           </span>
         </div>
         <div className="flex justify-between items-baseline">
-          <span className="text-sm font-medium text-gray-txt">
+          <span className="text-md font-semibold text-gray-txt">
             Cambio Diario:
           </span>
           <span
