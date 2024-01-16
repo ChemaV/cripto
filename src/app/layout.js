@@ -4,7 +4,7 @@ import { Grid, GridItem } from "@chakra-ui/react";
 import NavbarLeft from "./components/navbar/NavbarLeft";
 import HeaderCh from "./components/header/HeaderCh";
 import Footer from "./components/footer/Footer";
-import CardsgridflexCh from "./components/CardsgridflexCh";
+import Apirapid from "./components/Apirapid";
 
 
 
@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
           </GridItem>
           <GridItem area="main" bg="white">
             {children}
-            <CardsgridflexCh />
+            <Apirapid />
           </GridItem>
           <GridItem area="footer" alignSelf="center">
             <Footer/ >
