@@ -10,6 +10,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: "Chakra Petch", sans-serif;
+}
+
 .headingh1 {
   font-family: "Chakra Petch", sans-serif;
   font-size: 48px;
