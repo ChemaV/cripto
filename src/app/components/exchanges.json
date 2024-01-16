@@ -1,0 +1,95 @@
+{
+    "sitios_exchange_criptomonedas": [
+      {
+        "imagen": "https://imgur.com/6pq0qOm.png",
+        "nombre": "Coinbase",
+        "titulo": "El Gigante del Cripto",
+        "descripcion": "Plataforma líder de intercambio de criptomonedas con millones de usuarios en todo el mundo."
+      },
+      {
+        "imagen": "https://imgur.com/MQwuKUO.png",
+        "nombre": "Binance",
+        "titulo": "Navegando por las Finanzas Digitales",
+        "descripcion": "Uno de los mayores intercambios de criptomonedas por volumen, ofreciendo una amplia variedad de activos digitales."
+      },
+      {
+        "imagen": "https://imgur.com/1dNlvES.png",
+        "nombre": "Kraken",
+        "titulo": "Dominando las Olas Criptográficas",
+        "descripcion": "Plataforma de intercambio de criptomonedas con un enfoque en la seguridad y diversas opciones de trading."
+      },
+      {
+        "imagen": "https://imgur.com/B5S9HtW.png",
+        "nombre": "Gemini",
+        "titulo": "Gemelos del Cripto Universo",
+        "descripcion": "Intercambio de criptomonedas fundado por los gemelos Winklevoss, conocido por su enfoque regulatorio y seguridad."
+      },
+      {
+        "imagen": "https://imgur.com/QfPdGLi.png",
+        "nombre": "Bitstamp",
+        "titulo": "El Sello de la Cripto Confianza",
+        "descripcion": "Uno de los intercambios de criptomonedas más antiguos, proporcionando servicios confiables desde los primeros días de Bitcoin."
+      },
+      {
+        "imagen": "https://imgur.com/oDES4vs.png",
+        "nombre": "Huobi",
+        "titulo": "Conectando el Mundo Cripto",
+        "descripcion": "Plataforma de intercambio global que ofrece una amplia gama de criptomonedas para el trading."
+      },
+      {
+        "imagen": "https://imgur.com/QZi9fHj.png",
+        "nombre": "OKEx",
+        "titulo": "Explorando Oportunidades Cripto",
+        "descripcion": "Intercambio de criptomonedas que proporciona servicios avanzados de trading y una amplia variedad de tokens digitales."
+      },
+      {
+        "imagen": "https://imgur.com/at3bEDq.png",
+        "nombre": "Bitfinex",
+        "titulo": "Finanzas Digitales Sin Fronteras",
+        "descripcion": "Plataforma de trading de criptomonedas que ofrece liquidez para una variedad de activos digitales."
+      },
+      {
+        "imagen": "https://imgur.com/bbGK9D5.png",
+        "nombre": "Upbit",
+        "titulo": "Ascenso en el Mundo Cripto",
+        "descripcion": "Intercambio de criptomonedas con sede en Corea del Sur que facilita el trading de diversas monedas digitales."
+      },
+      {
+        "imagen": "https://imgur.com/A0F7q32.png",
+        "nombre": "KuCoin",
+        "titulo": "KuCoin: Tu Portal Cripto",
+        "descripcion": "Intercambio de criptomonedas con una amplia gama de pares de trading y una interfaz fácil de usar."
+      },
+      {
+        "imagen": "https://imgur.com/fPNT8cC.png",
+        "nombre": "Cex.io",
+        "titulo": "Cex.io: Tu Puerta a las Criptomonedas",
+        "descripcion": "Plataforma de intercambio de criptomonedas con opciones de compra y venta de diversas monedas digitales."
+      },
+      {
+        "imagen": "https://imgur.com/VAznTGL.png",
+        "nombre": "Luno",
+        "titulo": "Luno: Explorando el Mundo Digital",
+        "descripcion": "Intercambio de criptomonedas con sede en Singapur que facilita el acceso a diversas monedas digitales en mercados globales."
+      },
+      {
+        "imagen": "https://imgur.com/W8cRjBZ.png",
+        "nombre": "Gate.io",
+        "titulo": "Gate.io: Puerta a Nuevas Oportunidades",
+        "descripcion": "Intercambio de criptomonedas que ofrece una amplia variedad de activos digitales y opciones de trading avanzadas."
+      },
+      {
+        "imagen": "https://imgur.com/YiGw7Zv.png",
+        "nombre": "Yobit",
+        "titulo": "Yobit: Diversidad Cripto",
+        "descripcion": "Plataforma de intercambio de criptomonedas que proporciona acceso a numerosas monedas digitales y opciones de trading."
+      },
+      {
+        "imagen": "https://imgur.com/No04AlO.png",
+        "nombre": "BitMEX",
+        "titulo": "BitMEX: Navegando en el Futuro Cripto",
+        "descripcion": "Intercambio especializado en contratos de futuros de criptomonedas, conocido por su enfoque en productos derivados."
+      }
+    ]
+  }
+  
