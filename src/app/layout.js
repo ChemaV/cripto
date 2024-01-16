@@ -4,9 +4,6 @@ import { Grid, GridItem } from "@chakra-ui/react";
 import NavbarLeft from "./components/navbar/NavbarLeft";
 import HeaderCh from "./components/header/HeaderCh";
 import Footer from "./components/footer/Footer";
-import Apirapid from "./components/Apirapid";
-
-
 
 export const metadata = {
   title: "All Blocks Criptomonedas",
@@ -38,7 +35,6 @@ export default function RootLayout({ children }) {
           </GridItem>
           <GridItem area="main" bg="white">
             {children}
-            <Apirapid />
           </GridItem>
           <GridItem area="footer" alignSelf="center">
             <Footer/ >
