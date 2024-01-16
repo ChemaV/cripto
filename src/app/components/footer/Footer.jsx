@@ -7,7 +7,7 @@ export default function Footer() {
           <img
             alt="Imagotipo"
             src="/logo/imagotipopurple300.svg"
-            className="w-14 h-16 mx-auto md:mx-2"
+            className="w-12 h-14 mx-auto md:mx-2"
           />
           <span className="font-brand text-primary text-center md:text-left">All Blocks.</span>
         </div>
