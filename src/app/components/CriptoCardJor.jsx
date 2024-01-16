@@ -29,19 +29,19 @@ export default function CriptoCard({ coin }) {
       </div>
       <div className="bg-light-gray p-4 rounded-lg">
         <div className="flex justify-between items-baseline mb-2">
-          <span className="text-md font-semibold text-gray-txt">Precio:</span>
+          <span className="text-md font-semibold text-gray-txt bg-lemon p-1">Precio:</span>
           <span className="text-2xl font-bold text-gray-txt">
             {formatNumber(parseFloat(coin.price))}
           </span>
         </div>
         <div className="flex justify-between items-baseline mb-2">
-          <span className="text-md font-semibold text-gray-txt">Market Cap:</span>
+          <span className="text-md font-semibold text-gray-txt bg-lemon p-1">Market Cap:</span>
           <span className="text-2xl font-bold text-gray-txt">
             {formatNumber(parseFloat(coin.marketCap))}
           </span>
         </div>
         <div className="flex justify-between items-baseline">
-          <span className="text-md font-semibold text-gray-txt">
+          <span className="text-md font-semibold text-gray-txt bg-lemon p-1">
             Cambio Diario:
           </span>
           <span
