@@ -8,13 +8,14 @@ export default function CriptoCard({ coin }) {
     return value.toFixed(2);
   };
 
-  if (!coin || !coin.name || !coin.iconUrl || !coin.price || !coin.marketCap) {
+  if (!coin) {
     return <div>Error: No hay datos de moneda</div>;
   }
 
+  // Generar un cambio diario aleatorio si coin.dailyChange es indefinido
   const randomDailyChange = () => {
-    const min = -5; 
-    const max = 5; 
+    const min = -5; // Cambio diario mínimo (porcentaje)
+    const max = 5; // Cambio diario máximo (porcentaje)
     return Math.random() * (max - min) + min;
   };
 
