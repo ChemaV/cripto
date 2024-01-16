@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 
-function Apinews() { // Cambiado el nombre del componente de App a Apinews
+function Apinews() { 
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
