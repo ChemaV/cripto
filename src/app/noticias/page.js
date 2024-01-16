@@ -1,11 +1,11 @@
-import NoticiaCard from '../components/noticiacard/NoticiaCard';
+import Apinews from '../noticias/Apinews.jsx';
 
 const NoticiasPage = () => {
     return (
-        <NoticiaCard />
-    )
-  }
-  
-  export default NoticiasPage
+        <Apinews />
+    );
+};
+
+export default NoticiasPage;
   
 
