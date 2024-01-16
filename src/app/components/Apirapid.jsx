@@ -30,7 +30,7 @@ const Apirapid = () => {
   }
 
   return (
-    <div className="h-fit grid grid-cols-3 gap-4">
+    <div className="h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 md:gap-6 lg:gap-8 xl:gap-10 2xl:gap-12">
         
         {data.map((coin) => (
           <CriptoCardJor key={coin.symbol} coin={coin} />
