@@ -1,5 +1,5 @@
 import React from 'react';
-import exchangesData from '../components/exchanges.json';
+import exchangesData from '../exchange/exchanges.json';
 
 const CriptoExchanges = () => {
   return (
