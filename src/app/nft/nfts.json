@@ -49,7 +49,7 @@
         "creador": {"nombre": "Maestro Abstracto", "direccion_wallet": "0x123def456abc"}
       },
       {
-        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196878808867946586/mjmj2023_Explora_el_futuro_con_esta_representacion_artistica_de_d162ced4-9c57-4264-aead-d13c28af8326.png?ex=65b93b40&is=65a6c640&hm=a2d2d96680da6dec586dc9ee78c1f69739a0970041ac11635fb03ef920b2655c&",
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196878875297316946/mjmj2023_La_fusion_de_la_musica_y_la_tecnologia_se_manifiesta_e_53d9770b-a677-4e6b-986a-ae4a9e60334f.png?ex=65b93b50&is=65a6c650&hm=b6ce601d2622b04729cfa622c8e9200056b6e37543792d7164678a7e63e953ed&",
         "nombre": "Sinfonía Tecnológica",
         "descripcion": "La fusión de la música y la tecnología se manifiesta en este NFT, creando una sinfonía visual de innovación.",
         "precio": {"monto": 0.1, "moneda": "ETH"},
@@ -57,7 +57,7 @@
         "creador": {"nombre": "Innovador Sonoro", "direccion_wallet": "0xdef456123abc"}
       },
       {
-        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196878875297316946/mjmj2023_La_fusion_de_la_musica_y_la_tecnologia_se_manifiesta_e_53d9770b-a677-4e6b-986a-ae4a9e60334f.png?ex=65b93b50&is=65a6c650&hm=b6ce601d2622b04729cfa622c8e9200056b6e37543792d7164678a7e63e953ed&",
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196878808867946586/mjmj2023_Explora_el_futuro_con_esta_representacion_artistica_de_d162ced4-9c57-4264-aead-d13c28af8326.png?ex=65b93b40&is=65a6c640&hm=a2d2d96680da6dec586dc9ee78c1f69739a0970041ac11635fb03ef920b2655c&",
         "nombre": "Revolución Robótica",
         "descripcion": "Explora el futuro con esta representación artística de una revolución liderada por robots y tecnología avanzada.",
         "precio": {"monto": 0.13, "moneda": "ETH"},
@@ -73,7 +73,7 @@
         "creador": {"nombre": "Explorador Dimensional", "direccion_wallet": "0x789def123abc"}
       },
       {
-        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196880096372465855/mjmj2023_Explora_la_estetica_de_la_ingenieria_mecanica_con_este_1d66932c-f508-46c6-b188-3d5fdb0ca1bd.png?ex=65b93c73&is=65a6c773&hm=084a3067c598b50d8389dc372a642b5f06bbab204cdc1abdbf202d4b54b70979&",
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196880490267947018/mjmj2023_Una_representacion_artistica_de_la_esencia_espiritual__62f6ea0b-779e-4dfc-b265-cbbcba4249e7.png?ex=65b93cd1&is=65a6c7d1&hm=4fc59f99c02e25bdee2d84fe00dcb92027e674bcba1f96c851b32759fa4772cb&",
         "nombre": "Ser de Luz",
         "descripcion": "Una representación artística de la esencia espiritual, capturando la pureza y la serenidad de un ser de luz.",
         "precio": {"monto": 0.1, "moneda": "ETH"},
@@ -81,7 +81,7 @@
         "creador": {"nombre": "Artista Espiritual", "direccion_wallet": "0xcdef456abc123"}
       },
       {
-        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196880490267947018/mjmj2023_Una_representacion_artistica_de_la_esencia_espiritual__62f6ea0b-779e-4dfc-b265-cbbcba4249e7.png?ex=65b93cd1&is=65a6c7d1&hm=4fc59f99c02e25bdee2d84fe00dcb92027e674bcba1f96c851b32759fa4772cb&",
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196880096372465855/mjmj2023_Explora_la_estetica_de_la_ingenieria_mecanica_con_este_1d66932c-f508-46c6-b188-3d5fdb0ca1bd.png?ex=65b93c73&is=65a6c773&hm=084a3067c598b50d8389dc372a642b5f06bbab204cdc1abdbf202d4b54b70979&",
         "nombre": "Visión Mecánica",
         "descripcion": "Explora la estética de la ingeniería mecánica con este NFT que revela la belleza en la funcionalidad.",
         "precio": {"monto": 0.12, "moneda": "ETH"},
