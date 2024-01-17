@@ -28,7 +28,7 @@ const CriptoExchanges = () => {
             <p className="text-sm">{exchange.descripcion}</p>
           </div>
           <div className="items-center p-6 flex justify-end">
-            <button className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2">
+            <button className="text-white hover:text-primary bg-lemon hover:bg-purple-light text-sm font-medium inline-flex items-center justify-center rounded-md ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2">
               <a className="underline" href="#">
                 Visitar Sitio
               </a>
