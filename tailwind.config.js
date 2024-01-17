@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     fontSize: {
       xs: ["9px", "12px"],
-      sm: ["13px", "18px"],
-      base: ["16px", "20px"],
+      sm: ["13px", "15px"],
+      base: ["16px", "18px"],
       lg: ["18px", "22px"],
       xl: ["20px", "25px"],
       "2xl": ["24px", "30px"],
