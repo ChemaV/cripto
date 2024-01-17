@@ -1,4 +1,5 @@
-import Apinews from '../noticias/Apinews.jsx';
+'use client';
+import Apinews from '../noticias/Apinews';
 
 const NoticiasPage = () => {
     return (
@@ -7,5 +8,3 @@ const NoticiasPage = () => {
 };
 
 export default NoticiasPage;
-  
-

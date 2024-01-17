@@ -1,7 +1,8 @@
-'use client'
+'use client';
+// Apinews.jsx
 import React, { useState, useEffect } from 'react';
 import NoticiascardJor from "../noticias/NoticiacardJor.jsx";
-import { fetchData } from "../noticias/apinews.js";
+import { fetchData } from "./apinews"; // Update the import statement
 
 function Apinews() {
     const [data, setData] = useState(null);
@@ -30,7 +31,6 @@ function Apinews() {
 
     return (
         <div className="h-fit grid grid-cols-3 gap-4">
-            {}
             {data.map((newsItem) => (
                 <NoticiascardJor key={newsItem.id} newsItem={newsItem} />
             ))}
@@ -39,4 +39,3 @@ function Apinews() {
 }
 
 export default Apinews;
-
