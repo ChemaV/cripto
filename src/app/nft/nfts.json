@@ -1,0 +1,165 @@
+{
+    "nfts": [
+      {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196875783063486474/mjmj2023_A_digital_artwork_that_captures_the_beauty_of_a_shimme_a82a0027-3b01-42a1-8d22-be3ba658d02d.png?ex=65b9386f&is=65a6c36f&hm=71a6dfca824ee75f3c4327be400a7c54510f082c4774efd44ccd4ee00e49c50a&",
+        "nombre": "Aurora Brillante",
+        "descripcion": "Una obra de arte digital que captura la belleza de una aurora boreal resplandeciente en tonos vibrantes.",
+        "precio": {"monto": 0.08, "moneda": "ETH"},
+        "edicion": 1001,
+        "creador": {"nombre": "Artista Visionario", "direccion_wallet": "0xabc123def456"}
+      },
+      {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196877222737354792/mjmj2023_fusion_entre_la_ciencia_y_el_arte_con_esta_representac_501f3acd-20d8-4566-8805-de22db7c8777.png?ex=65b939c6&is=65a6c4c6&hm=6108b867a69df75755fae6573a4fa9c0daaf4e77d2c41532fcbdacd8aae88ac2&",
+        "nombre": "Máquina Cuántica",
+        "descripcion": "Explora la fusión entre la ciencia y el arte con esta representación visual de la mecánica cuántica.",
+        "precio": {"monto": 0.12, "moneda": "ETH"},
+        "edicion": 1002,
+        "creador": {"nombre": "Quantum Artist", "direccion_wallet": "0xdef456abc123"}
+      },
+      {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196876638621810788/mjmj2023_Un_paisaje_onirico_que_muestra_un_exuberante_jardin_de_3f5531a3-69dd-4ed9-9393-0ea468a08d54.png?ex=65b9393b&is=65a6c43b&hm=6628ef1a42c247514113ca92b64bae93ca174675163ca8af13dd87b686a4255f&",
+        "nombre": "Jardín de Sueños",
+        "descripcion": "Sumérgete en un paisaje onírico con este NFT que muestra un exuberante jardín de flores en colores surrealistas.",
+        "precio": {"monto": 0.07, "moneda": "ETH"},
+        "edicion": 1003,
+        "creador": {"nombre": "Soñador Digital", "direccion_wallet": "0x456def123abc"}
+      },
+      {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196877552715837541/mjmj2023_Una_representacion_artistica_de_la_vida_urbana_captura_60c5d84d-ab64-46bf-85ee-1ecba0e72cc0.png?ex=65b93a15&is=65a6c515&hm=ef8db642cc377e9365873130701cd5ee812ff9700bc9895904049580b36e273d&",
+        "nombre": "Rincones Urbanos",
+        "descripcion": "Una representación artística de la vida urbana capturando la energía y la diversidad de la ciudad moderna.",
+        "precio": {"monto": 0.09, "moneda": "ETH"},
+        "edicion": 1004,
+        "creador": {"nombre": "Ciudadano Creativo", "direccion_wallet": "0x789abc456def"}
+      },
+      {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196878123401232525/mjmj2023_Descubre_la_esencia_cosmica_con_este_NFT_que_presenta__947fe8c2-6555-42cb-8b83-cf534a5e4cc7.png?ex=65b93a9d&is=65a6c59d&hm=e969ef84dbf840b0f7cde8e96d6a0d30179923798e243eb5d095c41bfbd922fc&",
+        "nombre": "Esencia Galáctica",
+        "descripcion": "Descubre la esencia cósmica con este NFT que presenta una visión artística de las maravillas del espacio.",
+        "precio": {"monto": 0.15, "moneda": "ETH"},
+        "edicion": 1005,
+        "creador": {"nombre": "Artista Galáctico", "direccion_wallet": "0xcdef123456abc"}
+      },
+      {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196878756808232960/mjmj2023_Un_viaje_a_traves_de_formas_y_colores_abstractos_lleva_32e8d8bc-8edc-4318-8583-dd945747f166.png?ex=65b93b34&is=65a6c634&hm=fded1dd3b49e69235e46bb90aaea6bf2f753056402b4a267e641da6108615e26&",
+        "nombre": "Abstracción Eterna",
+        "descripcion": "Un viaje a través de formas y colores abstractos, llevando la mente a un estado de contemplación eterna.",
+        "precio": {"monto": 0.11, "moneda": "ETH"},
+        "edicion": 1006,
+        "creador": {"nombre": "Maestro Abstracto", "direccion_wallet": "0x123def456abc"}
+      },
+      {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196878808867946586/mjmj2023_Explora_el_futuro_con_esta_representacion_artistica_de_d162ced4-9c57-4264-aead-d13c28af8326.png?ex=65b93b40&is=65a6c640&hm=a2d2d96680da6dec586dc9ee78c1f69739a0970041ac11635fb03ef920b2655c&",
+        "nombre": "Sinfonía Tecnológica",
+        "descripcion": "La fusión de la música y la tecnología se manifiesta en este NFT, creando una sinfonía visual de innovación.",
+        "precio": {"monto": 0.1, "moneda": "ETH"},
+        "edicion": 1007,
+        "creador": {"nombre": "Innovador Sonoro", "direccion_wallet": "0xdef456123abc"}
+      },
+      {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196878875297316946/mjmj2023_La_fusion_de_la_musica_y_la_tecnologia_se_manifiesta_e_53d9770b-a677-4e6b-986a-ae4a9e60334f.png?ex=65b93b50&is=65a6c650&hm=b6ce601d2622b04729cfa622c8e9200056b6e37543792d7164678a7e63e953ed&",
+        "nombre": "Revolución Robótica",
+        "descripcion": "Explora el futuro con esta representación artística de una revolución liderada por robots y tecnología avanzada.",
+        "precio": {"monto": 0.13, "moneda": "ETH"},
+        "edicion": 1008,
+        "creador": {"nombre": "Artista Robótico", "direccion_wallet": "0x456abc123def"}
+      },
+      {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196880048091840653/mjmj2023_Embarcate_en_un_viaje_a_traves_de_dimensiones_alternat_1b61a29f-814a-4d63-bd74-d62722ed7ef2.png?ex=65b93c68&is=65a6c768&hm=d3339e1830011bba97761a792b6c3c63c10dc189e5ba6e458912b5f178f8e898&",
+        "nombre": "Viaje Interdimensional",
+        "descripcion": "Embárcate en un viaje a través de dimensiones alternativas con este NFT que desafía la percepción visual.",
+        "precio": {"monto": 0.14, "moneda": "ETH"},
+        "edicion": 1009,
+        "creador": {"nombre": "Explorador Dimensional", "direccion_wallet": "0x789def123abc"}
+      },
+      {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196880096372465855/mjmj2023_Explora_la_estetica_de_la_ingenieria_mecanica_con_este_1d66932c-f508-46c6-b188-3d5fdb0ca1bd.png?ex=65b93c73&is=65a6c773&hm=084a3067c598b50d8389dc372a642b5f06bbab204cdc1abdbf202d4b54b70979&",
+        "nombre": "Ser de Luz",
+        "descripcion": "Una representación artística de la esencia espiritual, capturando la pureza y la serenidad de un ser de luz.",
+        "precio": {"monto": 0.1, "moneda": "ETH"},
+        "edicion": 1010,
+        "creador": {"nombre": "Artista Espiritual", "direccion_wallet": "0xcdef456abc123"}
+      },
+      {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196880490267947018/mjmj2023_Una_representacion_artistica_de_la_esencia_espiritual__62f6ea0b-779e-4dfc-b265-cbbcba4249e7.png?ex=65b93cd1&is=65a6c7d1&hm=4fc59f99c02e25bdee2d84fe00dcb92027e674bcba1f96c851b32759fa4772cb&",
+        "nombre": "Visión Mecánica",
+        "descripcion": "Explora la estética de la ingeniería mecánica con este NFT que revela la belleza en la funcionalidad.",
+        "precio": {"monto": 0.12, "moneda": "ETH"},
+        "edicion": 1011,
+        "creador": {"nombre": "Ingeniero Artístico", "direccion_wallet": "0x123456defabc"}
+      },
+      {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196881145166573638/mjmj2023_Una_explosion_de_creatividad_capturada_en_este_NFT_rep_3ad74738-5e9f-4be6-9e17-0c36f149687f.png?ex=65b93d6d&is=65a6c86d&hm=ddf2a83c76f816ec7af22a7d22e1425eb9a6474472ae3357400ad5a1bf2cc200&",
+        "nombre": "Fuego Creativo",
+        "descripcion": "Una explosión de creatividad capturada en este NFT, representando el fuego ardiente de la inspiración artística.",
+        "precio": {"monto": 0.09, "moneda": "ETH"},
+        "edicion": 1012,
+        "creador": {"nombre": "Artista Apasionado", "direccion_wallet": "0xdef123456abc"}
+      },
+      {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196881238758277260/mjmj2023_Viaja_en_el_tiempo_visualmente_con_este_NFT_que_reflej_e31a3637-657b-4eda-9ee0-5883cd5b2d40.png?ex=65b93d84&is=65a6c884&hm=f4e089820927ac4c128238c1fb171cb953cf66bf7142ca40b904511f36f5c182&",
+        "nombre": "Reflejos del Pasado",
+        "descripcion": "Viaja en el tiempo visualmente con este NFT que refleja fragmentos de la historia en destellos artísticos.",
+        "precio": {"monto": 0.08, "moneda": "ETH"},
+        "edicion": 1013,
+        "creador": {"nombre": "Historiador Visual", "direccion_wallet": "0x456abc789def"}
+        },
+        {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196881767978766407/mjmj2023_Escucha_los_ecos_del_universo_a_traves_de_este_NFT_que_ac10450c-507d-41ae-bd27-6e3a17016a79.png?ex=65b93e02&is=65a6c902&hm=6d5419207989ba83cd5d66a3134cb1d22ec25e54a24c8fd75ef199f794695323&",
+        "nombre": "Ecos del Cosmos",
+        "descripcion": "Escucha los ecos del universo a través de este NFT que visualiza la música cósmica de las estrellas distantes.",
+        "precio": {"monto": 0.11, "moneda": "ETH"},
+        "edicion": 1014,
+        "creador": {"nombre": "Melodía Estelar", "direccion_wallet": "0xdefabc456123"}
+        },
+        {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196882787182055486/mjmj2023_La_gracia_y_la_libertad_se_entrelazan_en_este_NFT_que__1d79f2e2-d8ef-445d-9c5b-9256d8fbfd65.png?ex=65b93ef5&is=65a6c9f5&hm=a6ecac4d08341d8a8826ab678d47dd1c9fc20e52712ceec8550f7d4e3f5b7abb&",
+        "nombre": "Mariposas en el Viento",
+        "descripcion": "La gracia y la libertad se entrelazan en este NFT que representa mariposas danzando en la brisa del viento.",
+        "precio": {"monto": 0.1, "moneda": "ETH"},
+        "edicion": 1015,
+        "creador": {"nombre": "Alma Libre", "direccion_wallet": "0x123456abc789"}
+        },
+        {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196882852495761459/mjmj2023_Un_vistazo_al_futuro_digital_con_este_NFT_que_simboliz_ff8ff4ec-6375-40d5-a85c-fd530d478a49.png?ex=65b93f05&is=65a6ca05&hm=b88f66ae8e49a4b97b39bce74169a05476c039b7f85729408b3839dc41e8cd60&",
+        "nombre": "Revolución Digital",
+        "descripcion": "Un vistazo al futuro digital con este NFT que simboliza la revolución tecnológica en curso.",
+        "precio": {"monto": 0.13, "moneda": "ETH"},
+        "edicion": 1016,
+        "creador": {"nombre": "Pionero Digital", "direccion_wallet": "0xabc789def123"}
+        },
+        {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196883018862825564/mjmj2023_a_neon_neon_logo_in_the_style_of_cyberpunk_futurism_is_dec35237-3ba9-493f-b1d4-92bfe942aac2.png?ex=65b93f2c&is=65a6ca2c&hm=e2bff4bb52fbf0d4baab9245a95b866a11a10bb09c3044b022f7d0321fc9a73e&",
+        "nombre": "Sueños de Neón",
+        "descripcion": "Explora un mundo de sueños luminosos con este NFT que fusiona la estética de neón con la creatividad artística.",
+        "precio": {"monto": 0.12, "moneda": "ETH"},
+        "edicion": 1017,
+        "creador": {"nombre": "Artista Neón", "direccion_wallet": "0xdef123abc456"}
+        },
+        {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196884302449881088/mjmj2023_Sumergete_en_el_universo_interior_de_la_mente_humana_c_7ad1e2c9-a225-45de-8d1b-11c325d6579b.png?ex=65b9405e&is=65a6cb5e&hm=fec2972e67f44b4f4a1a0fc77bc8d59b76f315e1202885d2b70cff6c49c743f8&",
+        "nombre": "Universo Interior",
+        "descripcion": "Sumérgete en el universo interior de la mente humana con este NFT que explora la psique de manera visualmente impactante.",
+        "precio": {"monto": 0.14, "moneda": "ETH"},
+        "edicion": 1018,
+        "creador": {"nombre": "Psiconauta Visual", "direccion_wallet": "0x456def123abc"}
+        },
+        {
+        "imagen": "https://cdn.discordapp.com/attachments/1100547041597325335/1196884357651124354/mjmj2023_Testigo_del_renacimiento_digital_con_este_NFT_que_cele_2d9868b7-9d20-4bc1-8d20-c3338d18883b.png?ex=65b9406b&is=65a6cb6b&hm=6ec8e7deb3f0847b489f41c885dfad572415963b0b650359372d36ff54befec5&",
+        "nombre": "Renacimiento Digital",
+        "descripcion": "Testigo del renacimiento digital con este NFT que celebra la convergencia de arte y tecnología en una nueva era.",
+        "precio": {"monto": 0.09, "moneda": "ETH"},
+        "edicion": 1019,
+        "creador": {"nombre": "Renovador Artístico", "direccion_wallet": "0xdef456123abc"}
+        },
+        {
+        "imagen": "https://cdn.discordapp.com/attachments/1196115732325474414/1196484961537101976/mjmj2023_Fine_dining_gourmet_dish_3_Michelin_star_that_is_compo_3d4e5503-9fc6-4612-aaa6-1139114ad6ed.png?ex=65b7cc74&is=65a55774&hm=b2d9a92c8c17512181915634ccb77b4461d6dad2ccfacfacf1bfaeee48b07c88&",
+        "nombre": "Paladar exótico",
+        "descripcion": "Experimenta una gama de emociones a través un mundo de sabores visuales.",
+        "precio": {"monto": 0.1, "moneda": "ETH"},
+        "edicion": 1020,
+        "creador": {"nombre": "Artista Emocional", "direccion_wallet": "0x123abc456def"}
+        }
+    ]
+}
+  
