@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import { fetchData } from "../api.js";
 import CriptoCardJor from "../components/CriptoCardJor.jsx";
-import { Flex } from '@chakra-ui/react';
 
 const Apirapid = () => {
   const [data, setData] = useState(null);
