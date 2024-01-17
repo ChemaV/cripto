@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           templateRows="auto 1fr auto"
           gap={6}
           templateAreas={`
-            "navbar header header header"
+            "navbar main main main"
             "navbar main main main"
             "navbar footer footer footer"
           `}
@@ -27,13 +27,10 @@ export default function RootLayout({ children }) {
           <GridItem gridArea="navbar">
             <NavbarLeft />
           </GridItem>
-          <GridItem gridArea="header">
-            <HeaderTw />
-          </GridItem>
-          <GridItem gridArea="main" bg="white" className="max-h-screen">
+          <GridItem gridArea="main" bg="white" className="h-auto p-6">
             {children}
           </GridItem>
-          <GridItem area="footer" alignSelf="center" bottom="0" className="w-full left-100">
+          <GridItem area="footer" alignSelf="center" bottom="0" className="w-full">
             <Footer />
           </GridItem>
         </Grid>
