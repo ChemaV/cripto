@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
           <GridItem gridArea="main" bg="white" className="max-h-screen">
             {children}
           </GridItem>
-          <GridItem area="footer" alignSelf="center" position="fixed" bottom="0" className="w-full left-100">
+          <GridItem area="footer" alignSelf="center" bottom="0" className="w-full left-100">
             <Footer />
           </GridItem>
         </Grid>
