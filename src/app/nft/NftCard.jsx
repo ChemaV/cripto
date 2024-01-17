@@ -4,7 +4,7 @@ import nftsData from './nfts.json';
 
 const NftCard = () => {
   return (
-    <div className="grid grid-cols-4 gap-4">
+    <div className="w-full h-auto grid justify-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6 sm:gap-x-4 md:gap-x-6">
       {nftsData.nfts.map((nft, index) => (
         <div key={index} className="rounded-lg border bg-card text-card-foreground shadow-sm max-w-md mx-auto" data-v0-t="card">
           <img
@@ -41,7 +41,7 @@ const NftCard = () => {
           </div>
           <div className="flex items-center p-4">
             <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full">
-              Añadir al carro
+              Añadir al carrito
             </button>
           </div>
         </div>

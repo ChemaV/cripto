@@ -2,7 +2,7 @@ import Apirapid from "../components/Apirapid.jsx";
 
 const CriptomonedasPage = () => {
   return (
-    <main className="w-full flex-start flex-col min-h-screenitems-start justify-between p-8">
+    <main className="w-full flex-start flex-col min-h-screenitems-start justify-between">
       <section className="mb-5">
         <h3 className="introtxt font-chakra">
           En colaboración con la <span className="font-medium text-primary">API Coinranking</span>, te presentamos información
@@ -13,7 +13,7 @@ const CriptomonedasPage = () => {
           blockchain.
         </h3>
       </section>
-      <section className="flex min-h-screen items-start justify-between p-0">
+      <section className="flex min-h-screen items-start justify-center md:justify-between p-0">
         <Apirapid />
       </section>
     </main>
