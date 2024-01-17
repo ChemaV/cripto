@@ -16,8 +16,8 @@ export default function Links() {
       path: '/exchange',
     },
     {
-      title: 'Estadísticas',
-      path: '/estadisticas',
+      title: 'NFT',
+      path: '/nft',
     },
     {
       title: 'Contacto',

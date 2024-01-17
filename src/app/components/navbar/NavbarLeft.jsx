@@ -48,8 +48,8 @@ const NavbarLeft = () => {
               </Link>
             </li>
             <li className={`uppercase hover:text-purple-light hover:font-bold text-sm ${menuOpen ? 'rotate-0 text-xl text-white' : '-rotate-90 text-white'} transition-all duration-500`}>
-              <Link href="/estadisticas">
-                <span onClick={() => setMenuOpen(false)}>Estadísticas</span>
+              <Link href="/nft">
+                <span onClick={() => setMenuOpen(false)}>NFT</span>
               </Link>
             </li>
             <li className={`uppercase hover:text-purple-light hover:font-bold text-sm ${menuOpen ? 'rotate-0 text-xl text-white' : '-rotate-90 text-white'} transition-all duration-500`}>
