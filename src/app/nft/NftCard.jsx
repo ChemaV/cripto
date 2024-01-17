@@ -27,15 +27,15 @@ const NftCard = () => {
               </div>
               <div className="flex items-center justify-between bg-lemon p-2">
                 <span className="font-semibold">Rareza</span>
-                <span className="text-xl text-primary font-bold dark:text-gray-light">Ultra Rare</span>
+                <span className="text-l text-primary font-bold dark:text-gray-light">Ultra Rare</span>
               </div>
               <div className="flex items-center justify-between bg-lemon p-2">
                 <span className="font-semibold">Edición</span>
-                <span className="text-xl text-primary font-bold dark:text-gray-light text-md">#{nft.edicion}</span>
+                <span className="text-l text-primary font-bold dark:text-gray-light text-md">#{nft.edicion}</span>
               </div>
               <div className="flex items-center justify-between bg-lemon p-2">
                 <span className="font-semibold">Creador</span>
-                <span className="text-xl text-primary font-bold dark:text-gray-light text-md ">{nft.creador.nombre}</span>
+                <span className="text-l text-primary font-bold dark:text-gray-light text-md ">{nft.creador.nombre}</span>
               </div>
             </div>
           </div>
