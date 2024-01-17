@@ -1,6 +1,6 @@
 // NftCard.jsx
 import React from 'react';
-import nftsData from './nfts.json'; // Asegúrate de proporcionar la ruta correcta
+import nftsData from './nfts.json';
 
 const NftCard = () => {
   return (
@@ -16,26 +16,26 @@ const NftCard = () => {
             style={{ aspectRatio: '500 / 500', objectFit: 'cover' }}
           />
           <div className="space-y-1.5 flex flex-col items-start gap-2 p-4">
-            <h3 className="whitespace-nowrap tracking-tight text-2xl font-bold">{nft.nombre}</h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400">{nft.descripcion}</p>
+            <h3 className="text-primary whitespace-nowrap tracking-tight text-2xl font-bold">{nft.nombre}</h3>
+            <p className="text-sm text-gray-txt dark:text-gray-light">{nft.descripcion}</p>
           </div>
           <div className="p-4">
             <div className="grid gap-2">
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between bg-lemon p-2">
                 <span className="font-semibold">Precio</span>
-                <span className="text-lg font-bold">{nft.precio.monto} {nft.precio.moneda}</span>
+                <span className="text-xl font-bold text-primary">{nft.precio.monto} {nft.precio.moneda}</span>
               </div>
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between bg-lemon p-2">
                 <span className="font-semibold">Rareza</span>
-                <span className="text-gray-500 dark:text-gray-400">Ultra Rare</span>
+                <span className="text-xl text-primary font-bold dark:text-gray-light">Ultra Rare</span>
               </div>
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between bg-lemon p-2">
                 <span className="font-semibold">Edición</span>
-                <span className="text-gray-500 dark:text-gray-400">#{nft.edicion}</span>
+                <span className="text-xl text-primary font-bold dark:text-gray-light text-md">#{nft.edicion}</span>
               </div>
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between bg-lemon p-2">
                 <span className="font-semibold">Creador</span>
-                <span className="text-gray-500 dark:text-gray-400">{nft.creador.nombre}</span>
+                <span className="text-xl text-primary font-bold dark:text-gray-light text-md ">{nft.creador.nombre}</span>
               </div>
             </div>
           </div>
