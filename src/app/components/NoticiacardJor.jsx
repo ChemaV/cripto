@@ -1,17 +1,17 @@
 export default function Component() {
     return (
-      <div class="bg-[#c6c6c6] p-4 text-gray rounded-lg max-w-sm">
-        <h2 class="text-lg font-bold bg-[#a58ab4] p-2 rounded-md">Título de Noticia lorem ipsum hasta 3 líneas de texto</h2>
-        <p class="mt-2 text-sm">
+      <div class="bg-gray-light p-4 text-gray-txt rounded-lg max-w-sm">
+        <h2 class="text-lg font-bold bg-purple-light p-2 rounded-md">Título de Noticia lorem ipsum hasta 3 líneas de texto</h2>
+        <p class="mt-2 text-sm text-gray-txt">
           Lorem ipsum dolor sit amet consectetur. Lectus in gravida blandit arcu tortor viverra. Pellentesque purus in
           turpis ac diam cursus aliquam elementum. Augue aliquam nisi pulvinar mauris nibh libero est massa. Vitae posuere
           diam elementum.
         </p>
-        <p class="mt-4 text-sm">
+        <p class="mt-4 text-sm text-gray-txt">
           Lorem ipsum dolor sit amet consectetur. Lectus in gravida blandit arcu tortor viverra. Pellentesque purus in
           turpis ac diam cursus aliquam elementum.
         </p>
-        <div class="flex items-center justify-between mt-4 bg-yellow-200 p-4 rounded-md">
+        <div class="flex items-center justify-between mt-4 bg-lemon p-4 rounded-md">
           <div class="flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ export default function Component() {
             >
               <circle cx="12" cy="12" r="10"></circle>
             </svg>
-            <span class="ml-2">Media Name</span>
+            <span class="ml-2 text-gray-txt">Media Name</span>
           </div>
           <span>Timestamp</span>
         </div>
