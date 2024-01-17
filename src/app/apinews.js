@@ -1,13 +1,16 @@
+'use client';
 // apinews.js
+// Category
 export async function fetchData() {
-    const url = "https://crypto-news16.p.rapidapi.com/news/top/5";
-    const options = {
-      method: "GET",
-      headers: {
-        "X-RapidAPI-Key": "b77c225c5dmsh4e1d62edcee39e3p168dfbjsn0d8babd40c6c",
-        "X-RapidAPI-Host": "crypto-news16.p.rapidapi.com",
-      },
-    };
+  const url = 'https://bing-news-search1.p.rapidapi.com/news?safeSearch=Off&textFormat=Raw';
+  const options = {
+    method: 'GET',
+    headers: {
+      'X-BingApis-SDK': 'true',
+      'X-RapidAPI-Key': '2e3659d649mshbd6eae1fc8d04f0p156fc4jsn324a5b3d8bd5',
+      'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com'
+    }
+  };
   
     try {
       const response = await fetch(url, options);
@@ -18,4 +21,3 @@ export async function fetchData() {
       throw new Error("Error fetching data from the API");
     }
   }
-  
