@@ -1,9 +1,9 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { fetchData } from "../coinrankingapi.js";
-import CriptoCardJor from "../components/CriptoCardJor.jsx";
+import { fetchData } from "../api/coinranking/route.js";
+import CriptoCardJor from "./CriptoCardJor.jsx";
 
-const Apirapid = () => {
+const CoinrankingApi = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
 
@@ -39,4 +39,4 @@ const Apirapid = () => {
   );
 };
 
-export default Apirapid;
+export default CoinrankingApi;

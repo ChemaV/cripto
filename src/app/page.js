@@ -1,4 +1,4 @@
-import Apirapid from "./components/Apirapid.jsx";
+import CoinrankingApi from "./components/CoinrankingApi.jsx";
 import HeaderHome from "./components/header/HeaderHome.jsx";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
           <p className="text-md text-gray-title">Nuestra interfaz fácil de usar te permite explorar y comprender fácilmente el vasto mundo de las criptomonedas y las tecnologías blockchain.</p></div>
         </section>
         <section className="flex min-h-screen items-start justify-between p-0">  
-          <Apirapid />
+          <CoinrankingApi />
         </section>
     </main>
   );
