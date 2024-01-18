@@ -1,6 +1,6 @@
 import Link from "next/link.js";
-import Apirapid from "../components/Apirapid.jsx";
 import HeaderCripto from "../components/header/HeaderCripto.jsx";
+import CoinrankingApi from "../components/CoinrankingApi.jsx";
 
 const CriptomonedasPage = () => {
   return (
@@ -18,7 +18,7 @@ const CriptomonedasPage = () => {
         </h3>
       </section>
       <section className="flex min-h-screen items-start justify-center md:justify-between p-0">
-        <Apirapid />
+        <CoinrankingApi />
       </section>
     </main>
   );
