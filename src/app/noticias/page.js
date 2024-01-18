@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link.js";
 import Newsdataapi from "../components/noticias/Newsdataapi.jsx";
 import HeaderNoticias from "../components/header/HeaderNoticias.jsx";
 
@@ -9,7 +10,7 @@ const NoticiasPage = () => {
       <section className="mb-5">
         <h3 className="introtxt font-chakra">
           En colaboración con la API de noticias{" "}
-          <span className="font-medium text-primary">Newsdata.io</span> te
+          <Link className="font-medium text-primary" href="https://newsdata.io">Newsdata.io</Link> te
           brindamos acceso a artículos de noticias de todo el mundo: más de
           33557 fuentes de noticias que cubren alrededor de 154 países en 81
           idiomas. A partir de ahora, con{" "}

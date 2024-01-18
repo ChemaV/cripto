@@ -1,3 +1,4 @@
+import Link from "next/link.js";
 import Apirapid from "../components/Apirapid.jsx";
 import HeaderCripto from "../components/header/HeaderCripto.jsx";
 
@@ -8,7 +9,7 @@ const CriptomonedasPage = () => {
       <section className="my-5">
         <h3 className="introtxt font-chakra">
           En colaboración con la{" "}
-          <span className="font-medium text-primary">API Coinranking</span>, te
+          <Link className="font-medium text-primary" href="https://developers.coinranking.com/api">API Coinranking</Link>, te
           presentamos información detallada sobre todas las monedas, desde las
           icónicas Bitcoin y Ethereum hasta los tokens especializados como Basic
           Attention Token. En{" "}
