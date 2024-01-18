@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { fetchData } from "../api.js";
+import { fetchData } from "../coinrankingapi.js";
 import CriptoCardJor from "../components/CriptoCardJor.jsx";
 
 const Apirapid = () => {
