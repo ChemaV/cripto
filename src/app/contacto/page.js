@@ -5,7 +5,7 @@ const ContactoPage = () => {
   return (
     <main className="w-full flex-start flex-col min-h-screenitems-start justify-between p-8">
       <HeaderContacto />
-      <section className="flex min-h-screen items-start justify-center md:justify-between p-0">
+      <section className="flex min-h-screen items-start justify-center justify-between p-0">
         <ContactoForm />
       </section>
     </main>
