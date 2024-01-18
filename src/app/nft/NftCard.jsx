@@ -17,7 +17,7 @@ const NftCard = () => {
           />
           <div className="space-y-1.5 flex flex-col items-start gap-2 p-4">
             <h3 className="text-primary whitespace-nowrap tracking-tight text-2xl font-bold">{nft.nombre}</h3>
-            <p className="text-sm text-gray-txt dark:text-gray-light">{nft.descripcion}</p>
+            <p className="text-sm text-gray-txt dark:text-gray-title">{nft.descripcion}</p>
           </div>
           <div className="p-4">
             <div className="grid gap-2">
