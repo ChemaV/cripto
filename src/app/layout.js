@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
           <GridItem gridArea="navbar">
             <NavbarLeft />
           </GridItem>
-          <GridItem gridArea="main" bg="white" className="h-auto p-6">
+          <GridItem gridArea="main" bg="white" className="h-auto p-0 md:p-6">
             {children}
           </GridItem>
           <GridItem area="footer" alignSelf="center" bottom="0" className="w-full">

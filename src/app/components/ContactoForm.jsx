@@ -1,7 +1,7 @@
 // Contacto.jsx
 const ContactoForm = () => {
   return (
-    <section className="w-full h-screen text-left bg-gray-light px-6 py-6 md:py-16 rounded-md">
+    <section className="w-full h-auto text-left bg-gray-light px-6 py-6 md:py-16 rounded-md">
         <div className="max-w-md mx-auto">
           <form action="/enviar" method="post">
             {/* Nombre */}
