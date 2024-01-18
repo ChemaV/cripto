@@ -41,7 +41,7 @@ Creado por [AleDataAnalyst](https://github.com/AleDataAnalyst), [ChemaV](https:/
 
 Proyecto: https://github.com/ChemaV/cripto
 
-Despliegue en **Vercel**: 
+Despliegue en **Vercel**: https://cripto-fawn.vercel.app/exchange
 
 
 ![Static Badge](https://img.shields.io/badge/Version-7.1-green) ![Static Badge](https://img.shields.io/badge/Version%20API-5.1-blue)
