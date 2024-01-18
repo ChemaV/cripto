@@ -21,7 +21,7 @@ const NavbarLeft = () => {
             <Image
               src={Logo}
               alt="Logo All Blocks"
-              width="37"
+              width="auto"
               height="100"
               className="cursor-pointer"
               priority
