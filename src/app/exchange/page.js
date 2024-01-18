@@ -1,9 +1,11 @@
 import CriptoExchange from "../exchange/CriptoExchanges.jsx";
+import HeaderExchange from "../components/header/HeaderExchange.jsx";
 
 const ExchangePage = () => {
   return (
-    <main className="w-full flex-start flex-col min-h-screenitems-start justify-between">
-      <section className="mb-5">
+    <main className="w-full flex-start flex-col min-h-screenitems-start justify-between p-8">
+      <HeaderExchange />
+      <section className="my-5">
         <h3 className="introtxt font-chakra">
           <span className="font-brand font-semibold text-primary">
             All Blocks
