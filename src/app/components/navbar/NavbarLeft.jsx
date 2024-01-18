@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Logo from '../../../../public/logoallblocks.svg';
 import { AiOutlineMenu, AiOutlineClose, AiOutlineInstagram, AiOutlineFacebook, AiOutlineTwitter } from 'react-icons/ai';
 
 const NavbarLeft = () => {
@@ -19,10 +18,10 @@ const NavbarLeft = () => {
         <div className="flex justify-between items-center h-fit p-2 mb-8">
           <Link href="/">
             <Image
-              src={Logo}
+              src="/logoallblocks.svg"
               alt="Logo All Blocks"
-              width="auto"
-              height="100"
+              width="40"
+              height="46"
               className="cursor-pointer"
               priority
             />
