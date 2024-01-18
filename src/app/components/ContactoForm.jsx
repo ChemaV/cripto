@@ -1,5 +1,5 @@
 // Contacto.jsx
-const Contacto = () => {
+const ContactoForm = () => {
   return (
     <section className="md:w-full text-left bg-gray-light p-4">
         <div className="max-w-md mx-auto">
@@ -61,6 +61,6 @@ const Contacto = () => {
   );
 };
 
-export default Contacto;
+export default ContactoForm;
 
 
