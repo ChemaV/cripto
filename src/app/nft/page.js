@@ -1,8 +1,10 @@
 import NftCard from "../nft/NftCard.jsx";
+import HeaderNft from "../components/header/HeaderNft.jsx";
 
 const NftPage = () => {
   return (
-    <main className="w-full flex-start flex-col min-h-screenitems-start justify-between">
+    <main className="w-full flex-start flex-col min-h-screenitems-start justify-between p-8">
+      <HeaderNft />
       <section className="mb-5">
         <h3 className="introtxt font-chakra">
           Los <span className="font-medium text-primary">NFT (Tokens No Fungibles)</span> han revolucionado la manera en que

@@ -2,7 +2,6 @@
 import "./globals.css";
 import { Grid, GridItem } from "@chakra-ui/react";
 import NavbarLeft from "./components/navbar/NavbarLeft";
-import HeaderTw from "./components/header/HeaderTw";
 import Footer from "./components/footer/Footer";
 
 export const metadata = {
