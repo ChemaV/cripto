@@ -1,9 +1,11 @@
-const ContactoPage = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+import Contacto from '../contacto/Contacto.jsx'
 
-export default ContactoPage
+const ContactoPAge = () => {
+    return (
+      <Contacto />
+    )
+  }
+  
+export default Contacto
+  
+

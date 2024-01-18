@@ -27,7 +27,7 @@ export default function FooterCh() {
             isExternal
             color="purple.500"
           >
-            <Text as="a" textDecoration="underline" fontWeight={}>
+            <Text as="a" textDecoration="underline" fontWeight="bold">
               Coinranking API
             </Text>
             <ExternalLinkIcon mx="2px" />
