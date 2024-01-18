@@ -1,5 +1,5 @@
 // NftCard.jsx
-import React from 'react';
+import Image from 'next/image';
 import nftsData from './nfts.json';
 
 const NftCard = () => {
@@ -7,7 +7,7 @@ const NftCard = () => {
     <div className="w-full h-auto grid justify-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6 sm:gap-x-4 md:gap-x-6">
       {nftsData.nfts.map((nft, index) => (
         <div key={index} className="rounded-lg border bg-card text-card-foreground shadow-sm max-w-md mx-auto" data-v0-t="card">
-          <img
+          <Image
             src={nft.imagen}
             alt="NFT Image"
             width="500"
